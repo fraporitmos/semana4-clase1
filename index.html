@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="containerLogin">
+      <section class="sectionLogin">
+        <div class="containerElementsLogin">
+          <h2>Welcome Back 👋</h2>
+          <span class="descriptionLogin">
+            Today is a new day. It's your day. You shape it. Sign in to start
+            managing your projects.
+          </span>
+        </div>
+
+        <form class="containerElementsLogin">
+          <label for="emailId">Email</label>
+          <input
+            id="emailId"
+            type="email"
+            required
+            placeholder="Example@email.com"
+          />
+
+          <label  for="passwordId">Password</label>
+          <input
+            id="passwordId"
+            type="password"
+            required
+            maxlength="8"
+            placeholder="At least 8 characters"
+          />
+
+          <div class="containerForgot">
+            <a href="#"> Forgot Password? </a>
+          </div>
+
+          <button type="submit">
+            Sign In
+            </button>
+        </form>
+
+        <div class="containerElementsLogin">
+            <div class="containerSeparator">
+                <div class="separatorLine"></div>
+                <p>Or</p>
+                <div class="separatorLine"></div>
+            </div>
+       
+        </div>
+
+        <div class="containerElementsLogin">
+            <a href="#" class="btnSocialMedia">
+                <img src="assets/google.png" alt="google" />
+                Sign in with Google
+              </a>
+              <a href="#" class="btnSocialMedia">
+                <img src="assets/fb.png" alt="google" />
+                Sign in with Facebook
+              </a>
+      
+              <div class="containerSingUp">
+                <p>Don't you have an account?</p>
+                <a href="#"> Sign up </a>
+              </div>
+        </div>
+      
+      </section>
+
+      <section class="sectionImg">
+        <img src="assets/img.png" alt="Image flowers" />
+      </section>
+    </main>
+  </body>
+</html>
